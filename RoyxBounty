@@ -7,7 +7,7 @@ _G.BountyConfig = {
 		["Mode Send"] = {"On Bounty Change","On Server Hop"}
 	},
 	["Fps Lock"] = {
-		["Enabled"] = false, -- not recommend
+		["Enabled"] = true, -- not recommend
 		["Fps"] = 360
 	},
 	["Lock Bounty"] = {
