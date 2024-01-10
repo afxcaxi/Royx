@@ -8,7 +8,7 @@ _G.BountyConfig = {
 	},
 	["Fps Lock"] = {
 		["Enabled"] = false, -- not recommend
-		["Fps"] = 30
+		["Fps"] = 360
 	},
 	["Lock Bounty"] = {
 		["Enabled"] = false,
@@ -17,16 +17,16 @@ _G.BountyConfig = {
 	["Add On"] = {
 		["Skip Fuck User"] = true, -- skip door and budha 
 		["Tp Around"] = false,
-		["Server Hop Region"] = "", -- find with u self '=' can use abbreviation like jap , tok if not put = auto
+		["Server Hop Region"] = "Singapore", -- find with u self '=' can use abbreviation like jap , tok if not put = auto
 		["Add Range"] = 0, -- add range from u and target
-		["Black Screen"] = false,
+		["Black Screen"] = true,
 		["Hop Server Time"] = {
 			["Enabled"] = true,
 			["Delay Hop Time"] = 170, -- 2 min 30 sec -- and normal is hop when kill all player in server
 		} ,
 		["Chat Sender"] = {
 			["Enabled"] = false ,
-			["Text"] = {"Go Buy RoySec Now","RoySec da bezt","im stronger than u",'i just too good'},
+			["Text"] = {"Go Buy Royx Now","Royx Is Best","I'm AfxcaxiRoblox",'Im Stronger Than You'},
 		},
 
 		["% Health To Save"] = 35, -- this is if u health lower 35% it will be go safe zone
@@ -155,5 +155,5 @@ _G.BountyConfig = {
 }
 _G.Key = "9QJ1L-7EIK2-C9JDH"
 _G.DiscordId = "1117103662532141056"
-_G.BountyMode = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
+
